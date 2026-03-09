@@ -185,10 +185,7 @@
   }
 
   /* Glassmorphism - FIXED: Using rgba() instead of bg-opacity */
-  .glass {
-    @apply bg-white/20 dark:bg-gray-900/20 backdrop-blur-lg;
-  }
-
+.glass { @apply bg-white/20 dark:bg-gray-900/20 backdrop-blur-lg; }
   /* Alternative glass style with more opacity */
   .glass-light {
     @apply bg-white/10 dark:bg-gray-900/10 backdrop-blur-md;
